@@ -1,5 +1,5 @@
 /*Jane Wang
-  Sept.27.2014
+  Sept.27.2013
   A1Q2_Jane 
   This program shows a user's first name, initial, grade, and mark*/
 // The "Assignment2" class.
