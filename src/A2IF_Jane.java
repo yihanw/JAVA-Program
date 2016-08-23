@@ -1,7 +1,7 @@
 /*Jane Wang
   Oct. 25. 2013
   A2IF_Jane
-  This program will calculate the order cost, tax, and total for the pizza */ 
+  This program calculatse the order cost, tax, and total for the pizza */ 
 // The "A2IF_Jane" class.
 import java.awt.*;
 import hsa.Console;
@@ -13,6 +13,7 @@ public class A2IF_Jane
     public static void main (String[] args)
     {
 	c = new Console ();
+	// Place your program here.  'c' is the output console
 	double toppingCost=0, sizeCost=0;
 	final double HST=0.13;
 	double orderCost, tax, total;
@@ -67,15 +68,5 @@ public class A2IF_Jane
 	c.print("Your order cost $"+orderCost);
 	c.println(", tax $"+tax);
 	c.println("Total $"+total);
-	
-		  
-		 
-	
-	
-	
-	
-	
-      
-	// Place your program here.  'c' is the output console
     } // main method
 } // A2IF_Jane class
