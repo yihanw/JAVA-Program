@@ -1,8 +1,7 @@
 /*Jane Wang
-  Nov.14.13
+  Nov.14.2013
   Aloop2_Jane
-  this program asks users to input number
-  dispalys the aveage, total,largest and smallest number*/
+  This program asks users to input numbers, and dispalys the aveage, total,largest and smallest of the numbers*/
 // The "Aloop2_Jane" class.
 import java.awt.*;
 import hsa.Console;
@@ -44,14 +43,6 @@ public class Aloop2_Jane
 	c.println ("total= " + total);
 	c.println ("smallest number= " + smallest);
 	c.println ("largest number= " + largest);
-
-
-
-
-
-
-
-	// Place your program here.  'c' is the output console
     } // main method
 } // Aloop2_Jane class
 
