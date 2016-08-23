@@ -1,7 +1,7 @@
 /*Jane Wang
-  spt.27
+  Sept.27.2014
   A1Q2_Jane 
-  the program will show your first name, initial, grade, and mark*/
+  This program shows a user's first name, initial, grade, and mark*/
 // The "Assignment2" class.
 import java.awt.*;
 import hsa.Console;
@@ -9,10 +9,10 @@ import hsa.Console;
 public class A1Q2_Jane
 {
     static Console c;           // The output console
-    
     public static void main (String[] args)
     {
-	c = new Console ();
+      // Place your program here.  'c' is the output console	
+      c = new Console ();
       String S;
       char C;
       int I;
@@ -33,7 +33,5 @@ public class A1Q2_Jane
       c.println(I);
       c.print("your mark is ");
       c.println(F);
- 
-       // Place your program here.  'c' is the output console
     } // main method
 } // Assignment2 class
