@@ -1,5 +1,5 @@
 /*Jane Wang
-  Sept.27.2014
+  Sept.27.2013
   A1Q1_Jane 
   This program calculates the area and the circumference of a circle based on the value of radius entered by a user*/
 //The "Assignment1" class.
