@@ -1,9 +1,7 @@
-/*Name:Jane Wang
-  Date:Feb.07.2014
-  Class Name:MethodQuiz_Jane
-  Display:this program will ask user for grade, focus to enter positive number,
-	       continue diaplaying if user choose to continue,
-	       and display the grade for the mark.*/
+/*Jane Wang
+  Feb 07, 2014
+  MethodQuiz_Jane
+  This program asks user for grades, and displays the grade for the mark.*/
 // The "MethodQuiz_Jane" class.
 import java.awt.*;
 import hsa.Console;
@@ -19,7 +17,7 @@ public class MethodQuiz_Jane
 	char answer;
 	do //continue diaplaying if user wants to continue
 	{
-	    do //focus user to enter a positive integer
+	    do //force user to enter a positive integer
 	    {
 		c.println ("enter the mark");
 		mark = c.readInt ();
@@ -29,16 +27,12 @@ public class MethodQuiz_Jane
 	    char grade = grade (mark);
 	    c.println ("your grade is " + grade); //printout the grade
 
-	    c.println ("continue? answer 'Y' or 'N'"); //ask for continueing
+	    c.println ("continue? answer 'Y' or 'N'"); 
 	    answer = c.readChar ();
 	}
 	while (answer == 'Y'); //"continue loop" ends
 	c.println ("end of the program");
-
-
-	// Place your program here.  'c' is the output console
     } // main method
-
 
     public static char grade (int mark)
     {
