@@ -1,8 +1,7 @@
 /*Jane Wang
   Nov.26.2014
   Inheritance_Jane
-  This program will ask the user to choose a geometric object and then
-  calculate and display its perimeter and area.
+  This program asks the user to choose a geometric object ,and then calculates and displays its perimeter and area.
 */
 // The "Inheritance_Jane" class.
 import java.awt.*;
@@ -55,8 +54,6 @@ public class Inheritance_Jane
 	    c.println ("the area of the square is " + s.area ());
 	    c.println ("the primeter of the square is " + s.perimeter ());
 	}
-	
-	// Place your program here.  'c' is the output console
     } // main method
 } // Inheritance_Jane class
 
@@ -137,4 +134,3 @@ class Square extends Rectangle //square class
 	return super.perimeter ();
     }
 }
-
