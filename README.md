@@ -32,3 +32,17 @@ Some small-to-medium size java programs I wrote
   - public static int max(int a, int b, int d): returns the maximium
   - public static boolean isFinished(int a, int b, int d): determines if the user's inputs are finished
   - public static void displayValues(int a, int b, int d): displays the results  
+
+##Project1_Jane
+  A program that takes the lengths of two retangels as inputs, calculates and prints their information and their intersected section, it also determines if the rectangles are contained in each other.
+  - class Rectangle
+    - public Rectangle(int a,int b, int c, int d): places any negative length with zero
+	- public int getleft(): accessor
+	- public int getbottom(): accessor
+	- public int getwidth(): accessor
+	- public int getheight(): accessor
+	- public static Rectangle intersection(Rectangle r1, Rectangle r2): calculates and returns the area of the intersetion of two rectangles based on five cases
+	- public static int totalPerimeter(Rectangle r1, Rectangel r2): returns the total perimeter of the intersection part
+	- public static int area(Reactangle r1): returns the area of a rectangle
+	- public static int perimeter(Rectangle r1): returns the perimeter of a rectangle
+	- public boolean contain(Rectangele r1): determines if a rectangle is contained in the other
