@@ -1,8 +1,7 @@
 /*Jane Wang
  *Dec.17.2014
  *Fibonacci_Jane
- *This program will ask the user to enter a positive integer,
- *and then use the Fibonnacci sequence to calculate the value of that partically term.
+ *This program asks the user to enter a positive integer as a term for FIbonnacci sequence, and calculates and displays the result.
 */
 // The "Fibonacci_Jane" class.
 import java.awt.*;
@@ -15,12 +14,10 @@ public class Fibonacci_Jane
     public static void main (String[] args)
     {
 	c = new Console ();
-	int n;//the term 
+	int n; //the term enter by user
 	c.println ("Please enter a positive interger parameter");
-	n = c.readInt ();//read in the n term
-	c.println ("the value is "+calculateTerm (n));//recall the calue from the method
-
-	// Place your program here.  'c' is the output console
+	n = c.readInt ();
+	c.println ("the value is "+calculateTerm (n)); //display the result
     } // main method
 
 
@@ -31,8 +28,8 @@ public class Fibonacci_Jane
 	    c.println ("invalid value");
 	    return 0;
 	}
-
 	else
+	{
 	    if (n == 1)
 		return 1;//return the value for the first term
 	    else if (n == 2)
@@ -41,7 +38,6 @@ public class Fibonacci_Jane
 	    {
 		return calculateTerm (n - 2) + calculateTerm (n - 1);//return the nth term
 	    }
+	}    
     }
 } // Fibonacci_Jane class
-
-
