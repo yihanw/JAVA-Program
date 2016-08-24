@@ -1,8 +1,8 @@
 /*Jane Wang
- *Oct.27.2014
+ *Oct 27.2014
  *Projecta-Jane
- *This program is going to ask the user for lengths of two rectangle, calculate and display the informations about rectangle 1, rectangle 2 and the intersection part.
- *the program will also determine whether or not rectangle 1 is contained in rectangle 2
+ *This program asks the user for lengths of two rectangle, calculates and displays the information about rectangle 1, rectanalge 2
+ and their intersected section, the program also determines whether or not rectangle 1 is contained in rectangle 2
 */
 // The "Project1_Jane" class.
 import java.awt.*;
@@ -58,10 +58,9 @@ public class Project1_Jane
 	c.println ("Pramitar of the intersection: " + Rectangle.totalPerimeter (r1, r2));
 	c.println ();
 	c.println ("rectangle 1 contains rectange 2: " + r1.contain (r2));
-
-	// Place your program here.  'c' is the output console
     } // main method
 } // Project1_Jane class
+
 class Rectangle
 {
     private int left;        //x-coordinate of left edge
@@ -92,38 +91,32 @@ class Rectangle
 
     }
 
-
     //accessor and mutator
     public int getleft ()
     {
 	return this.left;
     }
 
-
     public int getbottom ()
     {
 	return this.bottom;
     }
-
 
     public int getwidth ()
     {
 	return this.width;
     }
 
-
     public int getheight ()
     {
 	return this.height;
     }
-
 
     //toString method
     public String toString ()
     {
 	return "base: (" + this.left + ", " + this.bottom + ") W: " + this.width + " h: " + this.height;
     }
-
 
     //class method: intersection
     public static Rectangle intersection (Rectangle r1, Rectangle r2)
@@ -235,14 +228,12 @@ class Rectangle
 	return r3;
     }
 
-
     public static int totalPerimeter (Rectangle r1, Rectangle r2)
     {
 	Rectangle r3;
 	r3 = intersection (r1, r2);
 	return (r3.width + r3.height) * 2; //return the total perimeter of the intersection part
     }
-
 
     public static int area (Rectangle r1)
     {
@@ -251,14 +242,12 @@ class Rectangle
 	return area; //return the area of a rectangle
     }
 
-
     public static int perimeter (Rectangle r1)
     {
 	int perimeter;
 	perimeter = (r1.width + r1.height) * 2;
 	return perimeter; //return the perimeter of a rectangle
     }
-
 
     public boolean contain (Rectangle r1)  //contain method
     {
@@ -272,5 +261,3 @@ class Rectangle
 	}
     }
 }
-
-
