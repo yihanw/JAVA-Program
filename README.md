@@ -1,22 +1,7 @@
 # JAVA-Program
 Some small-to-medium size java programs I wrote
 
-##Aloop3_Jane
 
-  A program that takes the number of a month and the start date are inputs, and outputs a calender of that month.
-  
-##ArrayAssign2_Jane
-
-  A program that a sequence of number as inputs, then counts each number's frequence, the mode, mean and madian of the number sequence, and outputs the results.  
-  
-###ArrayAssign3_Jane
-
-  A program that asks the user ten questions, then compares the answers to the correct answers, and displays some feedbacks and scores that the user get. 
-  
-##GraphicsQuiz_Jane
-
-  A program that displays a colourful pattern which consists circles  
-  
 ##IOAssignment1_Jane
 
   - PART A: Generates 20 random number from 35 to 95, prints the numbers and their average on a file named "data01.txt".
