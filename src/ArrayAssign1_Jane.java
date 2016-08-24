@@ -1,8 +1,7 @@
-/*name: Jane Wang
-  Date: Feb.27.2014
-  class name: "ArrayAssign1_Jane" class
-  display: the program will ask user to enter a series of array,
-	   find out and display the larest one.
+/*Jane Wang
+  Feb.27.2014
+  "ArrayAssign1_Jane" class
+  This program asks user to enter a series of array, and displays the largest one.
 */
 // The "ArrayAssign_Jane" class.
 import java.awt.*;
@@ -26,8 +25,6 @@ public class ArrayAssign1_Jane
 	    number [i] = c.readInt ();
 	}
 	output (number); //display the output
-
-	// Place your program here.  'c' is the output console
     } // main method
 
 
@@ -43,7 +40,6 @@ public class ArrayAssign1_Jane
 	}
 	return largest; //return the value to largestNum
     }
-
 
     public static void output (double[] number)  //display the largest number
     {
