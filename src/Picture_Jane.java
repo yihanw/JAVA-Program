@@ -1,7 +1,7 @@
 /*Jane Wang
-  Dec.17.2013
+  Dec 17, 2013
   Picture_Jane
-  this program performs a giraffe with tail moving down*/
+  This program performs a giraffe with some animations*/
 // The "Picture_Jane" class.
 import java.awt.*;
 import hsa.Console;
@@ -282,23 +282,5 @@ public class Picture_Jane
 		c.println ("sorry couldn't delay");
 	    }
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	// Place your program here.  'c' is the output console
     } // main method
 } // Picture_Jane class
