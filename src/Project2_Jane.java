@@ -1,7 +1,7 @@
 /*Jane Wang
- *Oct.30.2014
+ *Oct 30.2014
  *Project2_Jane
- *This program will ask the user for two fractions, display their
+ *This program asks the user for two fractions, and compares them, and displays the results
  */
 // The "Project2_Jane" class.
 import java.awt.*;
@@ -37,12 +37,10 @@ public class Project2_Jane
 	c.println ("the product of fraction " + f1.toString () + " and " + f2.toString () + " : " + Fraction.reduce (Fraction.product (f1, f2))); //display the product
 	c.println ("the sum of fractions " + f1.toString () + " and " + f2.toString () + " : " + Fraction.reduce (Fraction.sum (f1, f2))); //display the sum
 	c.println ("two fractions are equal: " + Fraction.equals (f1, f2)); //determine whether or not the fractions are equal
-	// Place your program here.  'c' is the output console
     } // main method
-
-
-
 } // Project2_Jane class
+
+
 class Fraction
 {
     int num;
@@ -62,18 +60,15 @@ class Fraction
 	}
     }
 
-
     public String toString ()  //toString method
     {
 	return (this.num + "/" + this.den);
     }
 
-
     public Fraction fetFraction (Fraction f)  //getFraction method, returning the object
     {
 	return f;
     }
-
 
     public double size ()  //size method, calculate the size of a fraction
     {
@@ -83,7 +78,6 @@ class Fraction
 	size2 = (double) Math.round (size1 * 100) / 100;
 	return size2;
     }
-
 
     public Fraction larger (Fraction f2)  //larger method, used to compare two fractions and return the larger one
     {
@@ -97,7 +91,6 @@ class Fraction
 	}
     }
 
-
     public static Fraction product (Fraction f1, Fraction f2)
     {
 	int product1, product2; //numerator and denominator of the product
@@ -107,7 +100,6 @@ class Fraction
 	return product;
     }
 
-
     public static Fraction sum (Fraction f1, Fraction f2)
     {
 	int sum1, sum2; //numerator and denominator of the sum
@@ -116,7 +108,6 @@ class Fraction
 	Fraction sum = new Fraction (sum1, sum2); //assign the values
 	return sum;
     }
-
 
     public static Fraction reduce (Fraction f)
     {
@@ -135,9 +126,7 @@ class Fraction
 	    }
 	}
 	return f; //return the reduced fraction
-
     }
-
 
     public static boolean equals (Fraction f1, Fraction f2)
     {
@@ -156,5 +145,3 @@ class Fraction
 	}
     }
 }
-
-
