@@ -14,8 +14,8 @@ Some small-to-medium size java programs I wrote
   - abstract class Shape: creates abstract methods
   - class Rectangle extends Shape
     - public Rectangle(double length, double width): constructors
-    - public double area():returns the area of a rectangle
-    - public double perimeter():returns the primeter of a rectangle
+    - public double area(): returns the area of a rectangle
+    - public double perimeter(): returns the primeter of a rectangle
   - class Triangle extends Shape
     - public Triangle(double a, double b, double c): constructor
     - public double area(): returns the area of a triangle
