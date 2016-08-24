@@ -39,7 +39,7 @@ Some small-to-medium size java programs I wrote
     - Square(double s): constructor
     - public double area(): returns the area of a square
     - public double perimeter(): returns the perimeter of a square
-    - 
+     
 **MethodAssignment2**
 
   A program that takes two or three numbers are inputs, and displays the maxium, minimum and midian value.
