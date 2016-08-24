@@ -51,10 +51,5 @@ public class GraphicsQuiz_Jane
 	c.fillOval(151,51,50,50);
 	c.fillOval(251,351,50,50);
 	c.fillOval(351,151,50,50);
-	
-	
-	
-	
-	// Place your program here.  'c' is the output console
     } // main method
 } // GraphicsQuiz_Jane class
