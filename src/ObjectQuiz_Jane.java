@@ -24,8 +24,6 @@ public class ObjectQuiz_Jane
 	c.println ("the area of circle 1 is " + c1.area ());
 	c.println ("the smaller of c1 and c2 is "  + Circle.smaller (c1, c2));
 	c.println ("r2 is entirely contained in r1: " + c1.isInside (c2));
-
-	// Place your program here.  'c' is the output console
     } // main method
 } // ObjectQuiz_Jane class
 class Circle
@@ -88,7 +86,6 @@ class Circle
 	return c3;
     }
 
-
     public boolean isInside (Circle c2)
     {
 	int xDistance, yDistance;
@@ -106,7 +103,6 @@ class Circle
 	}
     }
 
-
     public double area ()
     {
 	double area;
@@ -115,5 +111,3 @@ class Circle
 	return area;
     }
 }
-
-
