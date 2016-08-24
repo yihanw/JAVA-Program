@@ -1,9 +1,8 @@
-/*name:Jane
-  date:mar.17.2014
-  class name:ArrayAssign3_Jane
-  display:this program will ask user ten questions, compare their answers
-	  to the correct answers, and give the users some feed back,
-	  then display the points the user get and some comments.*/
+/*Jane Wang
+  March 17.2014
+  ArrayAssign3_Jane
+  This program asks user ten questions, compares their answers to the correct answers, and givse the users some feedbacks,
+  then displays the points the user get and some comments.*/
 // The "ArrayAssign3_Jane" class.
 import java.awt.*;
 import hsa.Console;
@@ -15,7 +14,7 @@ public class ArrayAssign3_Jane
     public static void main (String[] args)
     {
 	c = new Console ();
-	String[] myQuestions = new String [10]; //initialize my questions
+	String[] myQuestions = new String [10]; //initialize questions
 	String[] [] rightAnswers = new String [10] [7]; //initialize the right answers to the questions
 	String[] userAnswers = new String [10]; //initialize user's answers
 	//assign my questions to the string array
@@ -79,27 +78,26 @@ public class ArrayAssign3_Jane
 	    c.print ("next question or chose an option? ");
 	    c.println ("answer with 1 or 2");
 	    int choice = c.readInt ();
-	    //focus user to enter an integer between 1 and 2
+	    //force user to enter an integer between 1 and 2
 	    while (choice != 1 && choice != 2)
 	    {
 		c.println ("enter again,answer with 1 or 2");
 		choice = c.readInt ();
 	    }
-
 	    //if the user choose to continue with the next question in order
 	    if (choice == 1)
 	    {
 		c.println (myQuestions [i]);
 		userAnswers [i] = c.readLine ();
 	    }
-
 	    //if the user choose to pick an option
 	    if (choice != 1)
-	    { //ask user what kind of potion would she/he like
+	    { 
+	    	//ask user what kind of potion would she/he like
 		c.print ("random question, specific question or quit? ");
 		c.println ("answer with 1,2 or 3");
 		int option = c.readInt ();
-		//focus user to enter an integer between 1 and 3
+		//force user to enter an integer between 1 and 3
 		while (option != 1 && option != 2 && option != 3)
 		{
 		    c.println ("enter again, answer with 1,2 or 3");
@@ -133,15 +131,14 @@ public class ArrayAssign3_Jane
 
 	    }
 	}
-	result (rightAnswers, userAnswers); //call from the result method
-	// Place your program here.  'c' is the output console
+	result (rightAnswers, userAnswers); 
     } // main method
 
 
     public static void result (String[] [] rightAnswers, String[] userAnswers)
     {
-	int sum = 0;    //initialize the totol points that the user get
-	int[] value = new int [10]; //initialize the array
+	int sum = 0;    //initialize the total points that the user get
+	int[] value = new int [10];
 	//assign values to the array
 	value [0] = 7;
 	value [1] = 10;
@@ -165,7 +162,6 @@ public class ArrayAssign3_Jane
 		}
 	    }
 	}
-	//go through the array
 	for (int i = 0 ; i <10 ; i++)
 	{
 	    c.print ((i + 1) + ". " + userAnswers [i]); //print the question number
@@ -217,10 +213,5 @@ public class ArrayAssign3_Jane
 	{
 	    c.println ("need to do better");
 	}
-
-
-       
     }
 } // ArrayAssign3_Jane class
-
-
