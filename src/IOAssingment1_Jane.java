@@ -1,9 +1,8 @@
 /*Jane Wang
-  may.2.2014
+  May 2, 2014
   ICS3U1-01
-  introduction:this program will generate 20 random numbers from 35 to 95, print them on a file named "data01",
-	       then copy the numbers to a file named "data02", add first name and last name for every 4 numbers,
-	       then print them on a single line, use tokenizer to calculate the average for each student*/
+  This program generates 20 random numbers from 35 to 95, print them on a file named "data01", then copies the numbers to a file named "data02", 
+  and then adds first name and last name for every 4 numbers, and prints them on a single line, use tokenizer to calculate the average for each student*/
 // The "IOAssingment1_Jane" class.
 import java.awt.*;
 import java.io.*;
@@ -149,15 +148,6 @@ public class IOAssingment1_Jane
 	catch (IOException e)
 	{
 	}
-
-
-
-
-
-
-
-
-	// Place your program here.  'c' is the output console
     } // main method
 } // IOAssingment1_Jane class
 
