@@ -1,8 +1,7 @@
 /*Jane Wang
- *Dec.27.2014
+ *Dec 27.2014
  *Recursion_Jane
- *This program will ask user to enter a base number and an index number,
- *then calculate and display the value of it.
+ *This program asks user to enter a base number and an index number, then calculates and displays the value of it.
  */
 // The "Recursion_Jane" class.
 import java.awt.*;
@@ -15,13 +14,13 @@ public class Recursion_Jane
     public static void main (String[] args)
     {
 	c = new Console ();
-	// Place your program here.  'c' is the output console
+
 	double x; //the base number
 	int n; //the index
 	c.println ("please enter the base number");
-	x = c.readDouble (); //read in base number
+	x = c.readDouble (); 
 	c.println ("please enter the index number");
-	n = c.readInt (); //read in index number
+	n = c.readInt (); 
 	while (n < 0)
 	{
 	    c.println ("index number shoule be positive");
@@ -29,7 +28,6 @@ public class Recursion_Jane
 	}
 	c.println(calculateTerm(x,n));
     } // main method
-
 
     public static double calculateTerm (double x, int n)
     {
@@ -62,5 +60,3 @@ public class Recursion_Jane
 	}
     }
 } // Recursion_Jane class
-
-
