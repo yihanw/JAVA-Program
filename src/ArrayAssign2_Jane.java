@@ -1,9 +1,7 @@
-/*name: Jane
-  date: march.18.2014
-  calss name: ArrayAssign2_Jane
-  display: this program will ask the user a sequence of number,
-	   count the frequency, mode, mean and madian, and then return
-	   the result.*/
+/*Jane Wang
+  March.18.2014
+  ArrayAssign2_Jane
+  This program asks user to enter a sequence of number, and counts the frequency, mode, mean and madian, then returns the result.*/
 // The "ArrayAssign2_Jane" class.
 import java.awt.*;
 import hsa.Console;
@@ -15,18 +13,18 @@ public class ArrayAssign2_Jane
     public static void main (String[] args)
     {
 	c = new Console ();
-	int length; //initialize the number that going to be entered
+	int length; 
 	int[] number; //array that hold the numbers entered by user
 	//ask the length and read in
 	c.println ("how many number are you going to enter");
 	length = c.readInt ();
 	number = new int [length];
 	//ask to enter the numbers and read them into the array
-	for (int i = 0 ; i < length ; i++) //read in all the elements in array
+	for (int i = 0 ; i < length ; i++) 
 	{
 	    c.println ("enter your number, from 1 to 10");
 	    number [i] = c.readInt ();
-	    //focus the user to enter the number in the specific rage
+	    //force the user to enter the number in the specific rage
 	    while (number [i] > 10 || number [i] < 0)
 	    {
 		c.println ("out of rage, enter again");
@@ -37,13 +35,12 @@ public class ArrayAssign2_Jane
 	display (number);
     } // main method
 
-
     public static int[] frequency (int[] number)  //method that used to find frequency
     {
 	int[] count = new int [11];
-	//go through the sequence
+	//go through the sequence and add the count if the specific number appears
 	for (int i = 0 ; i <= (number.length - 1) ; i++)
-	{ //add the count if the specific number appears
+	{ 
 	    if (number [i] == 0)
 	    {
 		count [0] = count [0] + 1;
@@ -92,9 +89,9 @@ public class ArrayAssign2_Jane
 	return count; //return the array
     }
 
-
     public static void display (int[] number)
-    { //display the title of frequency chart
+    { 
+    	//display the title of frequency chart
 	c.println ("sample input    sample output");
 	c.println ("                marks   frequency");
 	//display the top part of frequency chart
@@ -107,36 +104,36 @@ public class ArrayAssign2_Jane
 	{
 	    c.println ("                " + i + "        " + frequency (number)[i]);
 	}
-	//display the mean, mode and madian number
+	//display the results
 	c.println ("the mean is " + mean (number));
 	c.println ("the mode is " + mode (number));
 	c.println ("the madian is " + madian (number));
     }
 
-
     public static double mean (int[] number)
     {
-	int sum = 0; //initialize the totle
-	double mean = 0; //initialize the mean value
-	//go through the array entered by user
+	int sum = 0; 
+	double mean = 0; 
+	//find sum of the array
 	for (int i = 0 ; i < number.length ; i++)
 	{
-	    sum = sum + number [i]; //add the numbers up
+	    sum = sum + number [i]; 
 	}
-	//find the mean using the math formula: average=totle/number
+	//find the mean using the math formula: average=total/number
 	mean = sum / number.length;
 	mean = Math.round (mean); //round the mean value
-	return mean; //return the mean value to the method
+	return mean; 
     }
 
 
     public static int mode (int[] number)
     {
-	int mode = 0; //initialize the mode
+	int mode = 0;
 	int[] count = new int [11];
 	//go through the sequence
 	for (int i = 0 ; i <= (number.length - 1) ; i++)
-	{ //add the count if the specific number appears
+	{ 
+	    //add the count if the specific number appears
 	    if (number [i] == 0)
 	    {
 		count [0] = count [0] + 1;
@@ -183,7 +180,7 @@ public class ArrayAssign2_Jane
 	    }
 	}
 
-	for (int j = 0 ; j <= 9 ; j++)//go through the array named count
+	for (int j = 0 ; j <= 9 ; j++)
 	{
 	    if (count [j] >= mode)//find the largest count
 	    {
@@ -194,10 +191,9 @@ public class ArrayAssign2_Jane
 	return mode;
     }
 
-
     public static int madian (int[] number)
     {
-	int madian = 0; //initialize the madian
+	int madian = 0; 
 	//odd number of the sequence, find the middle value
 	if (number.length % 2 != 0)
 	{
@@ -210,9 +206,6 @@ public class ArrayAssign2_Jane
 	    int i = number.length / 2;
 	    madian = (number [i] + number [(i + 1)]) / 2; //the average of the two middle value
 	}
-
 	return madian; //return the value to the method
     }
 } // ArrayAssign2_Jane class
-
-
