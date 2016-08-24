@@ -88,19 +88,7 @@ public class Triangle_Jane
 	    }
 
 	    c.println (message);//display the message corresponding to the input
-
-
 	}
-
-
-
-
-
-
-
-
-
-
     }
 } // Triangle_Jane class
 
