@@ -20,22 +20,22 @@ Some small-to-medium size java programs I wrote
   
 **Inheritance_Jane**
   A program that asks the user to choose a geometric object (rectangle, triangle or square), calculates and displays its perimeter and area.
-  *abstract class Shape: creates abstract methods
-  *class Rectangle extends Shape
-    *public Rectangle(double length, double width): constructors
-	*public double area():returns the area of a rectangle
-	*public double perimeter():returns the primeter of a rectangle
-  *class Triangle extends Shape
-    *public Triangle(double a, double b, double c): constructor
-    *public double area(): returns the area of a triangle
-    *public double perimeter(): returns the perimeter of a triangle
-  *class Square extends Rectangle
-    *Square(double s): constructor
-    *public double area(): returns the area of a square
-    *public double perimeter(): returns the perimeter of a square	
+  - abstract class Shape: creates abstract methods
+  - class Rectangle extends Shape
+    - public Rectangle(double length, double width): constructors
+    - public double area():returns the area of a rectangle
+    - public double perimeter():returns the primeter of a rectangle
+  - class Triangle extends Shape
+    - public Triangle(double a, double b, double c): constructor
+    - public double area(): returns the area of a triangle
+    - public double perimeter(): returns the perimeter of a triangle
+  - class Square extends Rectangle
+    - Square(double s): constructor
+    - public double area(): returns the area of a square
+    - public double perimeter(): returns the perimeter of a square	
 **MethodAssignment2
   A program that takes two or three numbers are inputs, and displays the maxium, minimum and midian value.
-  *public static int min(int a, int b, int d): returns the minimium
-  *public static int max(int a, int b, int d): returns the maximium
-  *public static boolean isFinished(int a, int b, int d): determines if the user's inputs are finished
-  *public static void displayValues(int a, int b, int d): displays the results  
+  - public static int min(int a, int b, int d): returns the minimium
+  - public static int max(int a, int b, int d): returns the maximium
+  - public static boolean isFinished(int a, int b, int d): determines if the user's inputs are finished
+  - public static void displayValues(int a, int b, int d): displays the results  
