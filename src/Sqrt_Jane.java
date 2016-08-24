@@ -1,7 +1,7 @@
 /*Jane Wang
-  Feb.05.2014
+  Feb 05, 2014
   Sqrt_Jane
-  This program will ask user for a number, and print out the squareroot of it*/
+  This program asks user to input a number, and prints out its squareroot*/
 //The "Sqrt_Jane" class.
 import java.awt.*;
 import hsa.Console;
@@ -29,10 +29,7 @@ public class Sqrt_Jane
 	    display (number);
 	}
     }
-
-
-    // Place your program here.  'c' is the output console
-
+    
     public static double mySqrt (double number)
     {
 	double testNumber = 0, squareRoot;
@@ -46,7 +43,6 @@ public class Sqrt_Jane
 	return squareRoot;
     }
 
-
     public static void display (double number)
     {
 	c.println ("square root is " + mySqrt (number));
@@ -57,4 +53,3 @@ public class Sqrt_Jane
 	c.println ("invalid number");
     }
 } // Sqrt_Jane class
-
