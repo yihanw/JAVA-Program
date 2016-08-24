@@ -9,7 +9,6 @@ public class Cypher_Jane
     public static void main (String[] args)
     {
 	c = new Console ();
-	// Place your program here.  'c' is the output console
 	char[] plain = new char [26]; //the original alphabet
 	char[] cipher = new char [26]; //the encrypted alphabet
 
@@ -71,11 +70,6 @@ public class Cypher_Jane
 	    }
 
 	}
-
-
-
-
-
     } // main method
 } // Cypher_Jane class
 
