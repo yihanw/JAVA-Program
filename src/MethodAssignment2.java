@@ -1,8 +1,7 @@
-/*Name:Jane Wang
-  Date:Jan.23.14
-  Class name: MethodAssignment2
-  Display:This program keeps asking user for two or three parameters, find out 
-	  and display the maxinum, minimun,or midian value.
+/*Jane Wang
+  Jan 23, 2014
+  MethodAssignment2
+  This program keeps asking user for two or three parameters, and displays the maxinum, minimun,and midian value.
 */          
 
 // The "MethodAssignment2" class.
@@ -44,6 +43,7 @@ public class MethodAssignment2
 	    }
 	    while (!isFinished (a, b));//do while loop ends
 	}
+	
 	if (n == 3)//if there are three parameters
 	{
 	    int a, b, d;
@@ -65,12 +65,9 @@ public class MethodAssignment2
 	    }
 	    while (!isFinished (a, b, d));//do while loop ends
 	}
-
     }
 
-
     //two parameters
-
     public static int min (int a, int b)
     {
 	if (a <= b)
@@ -83,7 +80,6 @@ public class MethodAssignment2
 	}
 
     }//min method
-
 
     public static int max (int a, int b)
     {
@@ -98,7 +94,6 @@ public class MethodAssignment2
 
     }//max method
 
-
     public static boolean isFinished (int a, int b)
     {
 	if (a == 0 && b == 0)
@@ -111,13 +106,11 @@ public class MethodAssignment2
 	}
     }//isFinished method
 
-
     public static void displayValues (int a, int b)
     {
 	c.println ("User input : " + a + " " + b);
 	c.println ("Max value: " + max (a, b) + " Min value: " + min (a, b));
     }//dispalyValues method
-
 
     //three parameters
     public static int min (int a, int b, int d)
@@ -137,7 +130,6 @@ public class MethodAssignment2
 
     }//min method
 
-
     public static int max (int a, int b, int d)
     {
 	if (a >= b && a > d)
@@ -154,7 +146,6 @@ public class MethodAssignment2
 	}
 
     }//max method
-
 
     public static int mid (int a, int b, int d)
     {
@@ -174,7 +165,6 @@ public class MethodAssignment2
 
     }//mid method
 
-
     public static boolean isFinished (int a, int b, int d)
     {
 	if (a == 0 && b == 0 && d == 0)
@@ -187,7 +177,6 @@ public class MethodAssignment2
 	}
     }//isFinished method
 
-
     public static void displayValues (int a, int b, int d)
     {
 	c.println ("User input : " + a + " " + b + " " + d);
@@ -195,5 +184,3 @@ public class MethodAssignment2
 	c.println (" Min value: " + min (a, b, d));
     }//diaplayValue method
 } // MethodAssignment2 class
-
-
