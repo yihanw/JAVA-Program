@@ -44,10 +44,5 @@ public class Matrix_Jane
 	    }
 	    c.println ();
 	}
-
-
-
-
-	// Place your program here.  'c' is the output console
     } // main method
 } // Matrix_Jane class
