@@ -1,0 +1,5 @@
+abcd ABCD 84 48 40 81 
+efgh EFGH 92 74 40 82 
+ijkl IJKL 74 63 40 63 
+mnop MNOP 78 53 57 74 
+qrst QRST 86 66 72 80 
