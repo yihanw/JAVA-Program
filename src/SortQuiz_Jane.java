@@ -13,6 +13,7 @@ public class SortQuiz_Jane
 	int list[] = new int [50];
 	int frequency[] = new int [9];
 	int length = 0;
+	c.println("Enter a integer, 0 to stop")
 	for (int i = 0 ; i < 50 ; i++)
 	{
 	    list [i] = c.readInt ();
